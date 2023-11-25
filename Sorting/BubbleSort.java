@@ -1,4 +1,3 @@
-import java.io.*;
 public class BubbleSort {
 	static void bubbleSort(int arr[], int n) // 64, 34, 25, 12, 22, 11, 90
 	{
