@@ -1,5 +1,6 @@
-import java.util.*;
-public class SumofEvenOdd {
+import java.util.Scanner;
+
+public class trial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
@@ -20,7 +21,7 @@ public class SumofEvenOdd {
 
         }
         System.out.println(evenDigitSum+" "+oddDigitSum);        
-
     }
 
+    
 }
