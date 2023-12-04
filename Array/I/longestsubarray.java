@@ -1,10 +1,8 @@
 import java.util.* ;
-import java.io.*; 
 
 public class longestsubarray {
 	public static int getLongestSubarray(int []nums, int k) {
 		// Write your code here.
-		int ans = 0;
         Map<Integer,Integer> map = new HashMap<>();
 
 
