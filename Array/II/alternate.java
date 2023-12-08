@@ -1,5 +1,7 @@
 public class alternate {
     public static void main(String[] args){
+        
+        // funtion
         int[] nums = {3,1,-2,-5,2,-4};
         int n = nums.length;
         int arr1[] = new int[n/2];
@@ -14,6 +16,7 @@ public class alternate {
                 k++;
             }
         }
+        
         j=0;k=0;
         for(int i=0;i<n;i++){
             nums[i] = arr2[k];
