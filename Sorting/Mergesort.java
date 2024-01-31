@@ -6,7 +6,6 @@ public class Mergesort {
         int right = mid + 1;   // starting index of right half of arr
 
         //storing elements in the temporary array in a sorted manner//
-
         while (left <= mid && right <= high) {
             if (arr[left] <= arr[right]) {
                 temp.add(arr[left]);
@@ -18,7 +17,6 @@ public class Mergesort {
         }
 
         // if elements on the left half are still left //
-
         while (left <= mid) {
             temp.add(arr[left]);
             left++;

@@ -20,7 +20,6 @@ public class BubbleSort {
 				break;
 		}
 	}
-
 	// Function to print an array
 	static void printArray(int arr[], int size)
 	{
@@ -32,7 +31,7 @@ public class BubbleSort {
 	// Driver program
 	public static void main(String args[])
 	{
-		int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
+		int arr[] = {64, 34, 25, 12, 22, 11, 90 };
 		int n = arr.length;
 		bubbleSort(arr, n);
 		System.out.println("Sorted array: ");

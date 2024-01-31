@@ -1,3 +1,4 @@
+import java.util.*;
 public class fibonaccinumber {
     public static void main(String args[]) {
         int n = 5;
@@ -11,7 +12,7 @@ public class fibonaccinumber {
             fib[i] = fib[i - 1] + fib[i - 2];
           }
           System.out.println("The Fibonacci Series up to "+n+"th term:");
-          for (int i = 0; i <= n; i++) {
+          for (int i = 0; i < n; i++) {
             System.out.print(fib[i] + " ");
           }
         }
